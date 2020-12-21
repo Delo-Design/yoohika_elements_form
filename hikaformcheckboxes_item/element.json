@@ -1,0 +1,33 @@
+{
+    "name": "hikaformcheckboxes_item",
+    "title": "Checkbox item",
+    "width": 500,
+    "templates": {
+        "render": "./templates/template.php",
+        "content": "./templates/content.php"
+    },
+    "fields": {
+        "label": {
+            "label": "Label",
+            "type": "text"
+        },
+        "value": {
+            "label": "Title",
+            "type": "Text"
+        }
+    },
+    "fieldset": {
+        "default": {
+            "type": "tabs",
+            "fields": [
+                {
+                    "title": "General",
+                    "fields": [
+                        "label",
+                        "value"
+                    ]
+                }
+            ]
+        }
+    }
+}
